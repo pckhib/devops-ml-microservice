@@ -22,6 +22,18 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
+### Files Overview
+
+- `.circleci`: Configuration directory for CircleCI.
+- `app.py`: Python flask application that returns predictions about housing prices.
+- `Dockerfile`: Dockerfile to build the application image.
+- `make_prediction.sh`: Sends a request to the flask application and receives a prediction.
+- `Makefile`: Includes instructions on environment setup and lint tests.
+- `requirements.txt`: Contains a list of all requirements that will be installed using `pip`.
+- `run_docker.sh`: Script to create a Docker image and run the container.
+- `run_kubernetes.sh`: Script to run the application as a Kubernetes cluster.
+- `upload_docker.sh`: Script to upload the Docker image to Docker HUB.
+
 ---
 
 ## Setup the Environment
